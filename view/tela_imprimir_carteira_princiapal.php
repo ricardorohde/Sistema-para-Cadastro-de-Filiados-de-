@@ -4,9 +4,9 @@
       $sql="SELECT * FROM filiado ";
       $sql=$pdo->query($sql);
 
-    	 	   $matricula = $_GET['matricula'];
+    	$nome = $_GET['nome'];
      
-      $sql = "SELECT * FROM filiado WHERE matricula ='$matricula' LIMIT 1";
+      $sql = "SELECT * FROM filiado WHERE nome LIKE '$nome%' LIMIT 1";
       $sql = $pdo->query($sql);	 
     
      
@@ -30,13 +30,18 @@
   <title>Carteira Congregado</title>
   </head>
   <body>
+
     <br>
   <div class="container">
+       
+  
   <div id="painel_botoes" class="painel">
+
     <div class="row">
         <a class="btn btn-outline-primary" href="../view/tela_imprimir_carteira_obreiro.php?&matricula=<?php echo $linhas['matricula']; ?>">Obreiro</a>
         <a class="btn btn-outline-secondary" href="../view/tela_imprimir_carteira_membro.php?&matricula=<?php echo $linhas['matricula']; ?>">Membro</a>
         <a class="btn btn-outline-success" href="../view/tela_imprimir_carteira_congregado.php?&matricula=<?php echo $linhas['matricula']; ?>">Congregado</a>
+         <a class="btn btn-outline-success" href="../view/tela_carteira_filiado.php">Voltar</a>
     </div>
   </div>
 
@@ -75,9 +80,10 @@
           <p id="nome_verso_responsavel"style="color:#000;">Pastor Presidente - <strong>Eribaldo Medeiros Coelho </strong></p> 
 
 
-       
+   
   </div>
   
+ 
   
 
     <!-- Optional JavaScript -->
