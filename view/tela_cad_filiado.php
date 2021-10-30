@@ -47,6 +47,8 @@
                       <option>Pastor-Presidente</option>
                       <option>Co-Pastor</option>
                       <option>Pastor</option>
+                      <option>Supervisor de Congregação</option>
+                      <option>Musico</option>
                 </select>
       </div>
       
@@ -76,7 +78,9 @@
                       <option>PAPARA</option>
                       <option>PLANALTO</option>
                       <option>SERRA JUBAIA</option>
-                     
+                      <option>IRACEMA</option>
+                      <option>PARAISO</option>
+                      <option>CASTELO</option>
                       
                 </select>
              </div>

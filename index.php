@@ -126,6 +126,12 @@ require_once "db/config.php";
                 </a>
               </li>
               <li class="nav-item">
+                <a href="view/tela_controle_filiado.php" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Pesquisar</p>
+                </a>
+              </li>
+              <li class="nav-item">
                 <a href="sair.php" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Sair</p>

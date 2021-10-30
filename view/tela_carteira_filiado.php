@@ -13,7 +13,7 @@
 </div>
 <br>
 <div class="col-sm-8 form-group ">
-  <form class="form-group "action="../view/tela_imprimir_carteira_modelo2.php" method="get">
+  <form class="form-group "action="../view/tela_imprimir_carteira_princiapal.php" method="get">
       <input name="matricula" id="txt_consulta" placeholder="Digite a Matricula do Filiado" type="text" class="form-control"><br>
       <button type="submit" class="form-group btn btn-primary">Pesquisar</button>
   </form>

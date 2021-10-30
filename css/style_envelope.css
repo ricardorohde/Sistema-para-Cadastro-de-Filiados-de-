@@ -1,9 +1,9 @@
 #foto_carteira_env
 {
   width:150px;
-  height:220px; 
-  margin-top:479px;
-  margin-left:-386px;
+  height:198px; 
+  margin-top:278px;
+  margin-left:-225px;
 
 }
 
@@ -39,8 +39,8 @@
 {
   margin-left:-38px;
   margin-top:-80px;
-  width:384px;
-  height:740px;
+  width:471px;
+  height:600px;
   
 	
 }
@@ -111,8 +111,8 @@
   text-align:left;
   text-transform: uppercase;
 
-  margin-top:-415px;
-  margin-left:-140px;
+  margin-top:-491px;
+  margin-left:-138px;
   text-shadow: 1px 0px 0px #FFF, 
                  -1px 0px 0px #FFF, 
                  0px 1px 0px #FFF, 
@@ -123,13 +123,13 @@
   width:600px;
   color:#000;
   font-family: "Times New Roman", Times, serif; 
-  font-size: 12px;
+  font-size: 16px;
   text-align:left;
   text-transform: uppercase;
-  color:#006400;
+  color:#000;
   
-  margin-top:-368px;
-  margin-left:369px;
+  margin-top:58px;
+  margin-left:-308px;
   text-shadow: 1px 0px 0px #FFF, 
                  -1px 0px 0px #FFF, 
                  0px 1px 0px #FFF, 
@@ -141,9 +141,9 @@
 {
   width:400px;
   height:20px;
-  margin-top:127px;
-  margin-left:-452px;
-  color:#191970; 
+  margin-top:142px;
+  margin-left:-408px;
+  color:#d90939; 
   font-size:20px;
   text-align:left;
 

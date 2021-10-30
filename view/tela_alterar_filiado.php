@@ -85,6 +85,7 @@
                       <option>Pastor-Presidente</option>
                       <option>Co-Pastor</option>
                       <option>Pastor</option>
+                      <option>Supervisor de Congregação</option>
                 </select>
       </div>
       
@@ -114,10 +115,11 @@
                       <option>VIÇOSA</option>
                       <option>PLANALTO</option>
                       <option>SERRA JUBAIA</option>
-                       <option>AREA SECA</option>
                        <option>PAPARA</option>
                        <option>SERRA JUBAIA</option>
-                      
+                       <option>CASTELO</option>
+                       <option>PARAISO</option>
+                       <option>IRACEMA</option>
                       
                 </select>
              </div>

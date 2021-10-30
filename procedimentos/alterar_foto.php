@@ -28,7 +28,7 @@ $arquivo                        = $_POST['arquivo'];
 
 			
 			//Pasta onde o arquivo vai ser salvo
-			$_UP['pasta'] = '../sistema/imagens/';
+			$_UP['pasta'] = '../imagens/';
 			
 			//Tamanho máximo do arquivo em Bytes
 			$_UP['tamanho'] = 1024*1024*100; //5mb

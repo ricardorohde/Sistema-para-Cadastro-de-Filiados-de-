@@ -33,7 +33,7 @@
         
      
           	  
-          	  <img id="logo_env" src="../imagens/diversas_imagens/envelope.png" alt="">
+          	  <img id="logo_env" src="../imagens/diversas_imagens/logoNovo.jpg" alt="">
           	
 
         
@@ -42,6 +42,7 @@
            
              
              <p class="font-weight-bold"id="dados_frente_env" style="text-align:center; "><?php echo $linhas['nome'];?></p>
+              <p class="font-weight-bold"id="dados_frente_env1" style="text-align:center; "><?php echo $linhas['congregacao'];?></p>
             
              
           </div>           	  
@@ -49,7 +50,7 @@
                   	
 		 </div>
       <h4 id="cab_cartao_env">ENVELOPE DE DÍZIMO</h4>
-     <img id="foto_carteira_env"src="../imagens/<?php echo $linhas['arquivo'];?>" width="120" height="150" style="border-radius:10px;">
+     <img id="foto_carteira_env"src="../imagens/<?php echo $linhas['arquivo'];?>" width="120" height="150" style="border-radius:600px;">
 
 		 
 
