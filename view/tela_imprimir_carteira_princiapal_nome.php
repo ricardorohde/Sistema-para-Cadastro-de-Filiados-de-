@@ -3,10 +3,9 @@
   
       $sql="SELECT * FROM filiado ";
       $sql=$pdo->query($sql);
-
-    	$matricula = $_GET['matricula'];
      
-      $sql = "SELECT * FROM filiado WHERE matricula ='$matricula' LIMIT 1";
+      $nome= $_GET['nome'];
+       $sql    = "SELECT * FROM filiado WHERE nome LIKE '$nome%'";
       $sql = $pdo->query($sql);	 
     
      
