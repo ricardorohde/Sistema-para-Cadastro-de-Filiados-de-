@@ -1,5 +1,5 @@
 <?php   
-       require_once "../db/config.php";
+      require_once "../db/config.php";
        $nome= $_GET['nome'];
        $sql    = "SELECT * FROM filiado WHERE nome LIKE '$nome%'";
        $sql    = $pdo->query($sql);

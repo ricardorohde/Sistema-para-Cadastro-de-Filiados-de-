@@ -473,3 +473,4 @@ Stack trace:
 [17-Sep-2021 19:41:08 America/Fortaleza] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/tcmarang/public_html/sistema/seguranca.php on line 32
 [19-Sep-2021 09:27:35 America/Fortaleza] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/tcmarang/public_html/sistema/seguranca.php on line 32
 [19-Sep-2021 21:10:31 America/Fortaleza] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/tcmarang/public_html/sistema/seguranca.php on line 32
+[22-Oct-2021 18:55:51 America/Fortaleza] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/tcmarang/public_html/sistema/seguranca.php on line 32
